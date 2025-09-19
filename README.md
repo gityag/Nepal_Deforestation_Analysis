@@ -31,7 +31,7 @@ This project tells a story of iterative improvement, where each model is designe
 
 The final analysis demonstrates that the **Augmented Topo-UNet** is the most effective and well-balanced model. The iterative enhancements successfully addressed the core challenges, with the final model achieving a **Mean IoU of 0.471** and a **Macro F1-Score of 0.557**.
 
-| Metric | Baseline FCN | Weighted FCN | Stable U-Net | **Augmented U-Net ** |
+| Metric | Baseline FCN | Weighted FCN | Stable U-Net | ** Augmented U-Net ** |
 |:---|:---:|:---:|:---:|:---:|
 | **Mean IoU (mIoU)** | 0.501 | 0.433 | 0.478 | **0.471** |
 | **Macro F1-Score**| 0.571 | 0.529 | 0.562 | **0.557** |
@@ -47,7 +47,7 @@ The final analysis demonstrates that the **Augmented Topo-UNet** is the most eff
 The side-by-side comparison below perfectly illustrates the project's story. The Baseline FCN ignores deforestation (red). The Weighted FCN learns to see it, but its predictions are noisy. The U-Net models produce the cleanest, most spatially coherent maps, demonstrating their superior architecture.
 
 ![Prediction Example](./figures/side-by-side-comparison.png)
-*(Suggestion: Place your final visualization image in a `figures` subfolder in your GitHub repository for clean organization.)*
+
 
 ---
 
